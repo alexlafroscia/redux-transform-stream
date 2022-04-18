@@ -8,7 +8,7 @@ import { configureStore } from "https://esm.sh/@reduxjs/toolkit?target=deno";
 import { readableStreamFromIterable } from "https://deno.land/std@0.135.0/streams/conversion.ts";
 
 // The actual library!
-import { ReduxTransformStream } from 'https://deno.land/x/redux_transform_stream@1.0.0/mod.ts"';
+import { ReduxTransformStream } from "https://deno.land/x/redux_transform_stream/mod.ts";
 
 // The type of our Redux store's state
 type State = `number`;
